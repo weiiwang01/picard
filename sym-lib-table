@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PiCard")(type "KiCad")(uri "${KIPRJMOD}/PiCard.kicad_sym")(options "")(descr ""))
+)

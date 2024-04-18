@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 66ede366-7fc2-4b20-87f7-46baaffc82b7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 74.93 55.88) (size 49.53 90.17) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1857bea8-e8dd-4e36-adef-7e084bf0304c)
+    (property "Sheetname" "Module A" (at 74.93 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "module_a.kicad_sch" (at 74.93 146.6346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiCard"
+        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 158.115 55.245) (size 49.53 89.535) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 60c6b1bc-0687-463f-9501-11affb2319e2)
+    (property "Sheetname" "Module B" (at 158.115 54.5334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "module_b.kicad_sch" (at 158.115 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiCard"
+        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
