@@ -494,6 +494,22 @@
       {
         "netclass": "90ohm",
         "pattern": "*TYPEC_D*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*/DA_*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*/DB_*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*/DC_*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*/DD_*"
       }
     ]
   },
