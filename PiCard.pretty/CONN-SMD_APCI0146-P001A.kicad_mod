@@ -45,6 +45,8 @@
     )
 
     (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp 117c2154-3a5a-4c9a-b8a9-58bdd79787fa))
+  (fp_rect (start -11.5 -5.05) (end 11.5 30.25)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp a3cb09e0-edd5-4671-a1f9-23436571ac60))
   (pad "" np_thru_hole circle (at -10 1.5) (size 1.1 1.1) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp c55ab67f-82a1-4879-9eb6-08eeb772daab))
   (pad "" np_thru_hole circle (at 0 29.75 180) (size 5 5) (drill 3) (layers "F&B.Cu" "*.Mask") (tstamp 7d6b358d-0805-471e-b895-c2115accc67e))
   (pad "" np_thru_hole circle (at 10 1.5) (size 1.6 1.6) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp ffadea0c-7fcd-448f-845d-679d48c6297e))

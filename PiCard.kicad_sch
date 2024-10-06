@@ -20,7 +20,7 @@
     )
     (instances
       (project "PiCard"
-        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "4"))
+        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "2"))
       )
     )
   )
@@ -38,6 +38,40 @@
     (instances
       (project "PiCard"
         (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 221.615 82.55) (size 23.495 37.465) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 84fa3ec9-3ef5-4630-8883-ec01f5391e7c)
+    (property "Sheetname" "Power" (at 221.615 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 221.615 120.5996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiCard"
+        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 37.465 82.55) (size 25.4 34.925) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af945338-25b8-4ef2-bd39-92b37ae13491)
+    (property "Sheetname" "USB" (at 37.465 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB.kicad_sch" (at 37.465 118.0596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PiCard"
+        (path "/66ede366-7fc2-4b20-87f7-46baaffc82b7" (page "5"))
       )
     )
   )
