@@ -1,0 +1,10 @@
+(version 1)
+(rule "USB-C footprint copper to edge clearance"
+    (constraint edge_clearance (min 0.2mm))
+    (condition "A.memberOfFootprint('PiCard:USB-C-SMD_TYPE-C-31-M-27')")
+)
+(version 1)
+(rule "RJ45 footprint copper to edge clearance"
+    (constraint edge_clearance (min 0.14mm))
+    (condition "A.memberOfFootprint('PiCard:RJ45-TH_RJ45-005-202-11')")
+)
