@@ -1924,4 +1924,15 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "d703f0fc-a31a-4801-a232-b5f3472b4469")
 	)
+	(model "${KIPRJMOD}/PiCard.3dshapes/TPS62180YZFR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

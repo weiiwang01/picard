@@ -5732,7 +5732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PiCard v2.1"
+		(property "Value" "PiCard v2.2"
 			(at 206.375 155.575 0)
 			(effects
 				(font

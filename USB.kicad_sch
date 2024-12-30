@@ -1830,7 +1830,7 @@
 				)
 			)
 		)
-		(symbol "PiCard:TPS2553"
+		(symbol "PiCard:TPS2552"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1842,7 +1842,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TPS2552"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1859,7 +1859,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2552.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1877,7 +1877,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS2553_0_0"
+			(symbol "TPS2552_0_0"
 				(pin power_in line
 					(at -8.89 5.08 0)
 					(length 2.54)
@@ -1917,7 +1917,7 @@
 				(pin passive line
 					(at -8.89 -5.08 0)
 					(length 2.54)
-					(name "EN"
+					(name "~{EN}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 					)
 				)
 			)
-			(symbol "TPS2553_1_1"
+			(symbol "TPS2552_1_1"
 				(rectangle
 					(start -6.35 7.62)
 					(end 6.35 -7.62)
@@ -3813,10 +3813,6 @@
 		(uuid "1045fbc7-448d-41d8-bcd2-409cb9f7e68e")
 	)
 	(no_connect
-		(at 124.46 95.25)
-		(uuid "1198a5fb-5873-4d66-a97f-cfa2ab49a3bb")
-	)
-	(no_connect
 		(at 242.57 123.19)
 		(uuid "1263f93d-e004-4e9f-9a1b-777b451e175f")
 	)
@@ -4128,6 +4124,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 95.25) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c710d4-9f04-489b-809f-8b8f5cddabc3")
+	)
+	(wire
+		(pts
 			(xy 57.15 47.625) (xy 57.15 50.8)
 		)
 		(stroke
@@ -4275,6 +4281,16 @@
 			(type default)
 		)
 		(uuid "7849e332-69b7-458e-9de0-3e385a7faafc")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 38.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccb4d14-5e2e-4504-9133-519ab7e06abb")
 	)
 	(wire
 		(pts
@@ -4498,16 +4514,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 45.72) (xy 38.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a34d68-3942-408a-ab34-fa6ee33c62f0")
-	)
-	(wire
-		(pts
 			(xy 57.15 45.72) (xy 57.15 47.625)
 		)
 		(stroke
@@ -4605,6 +4611,16 @@
 			(type default)
 		)
 		(uuid "df3fbe43-9af5-4776-966d-1230a18820ba")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05ea353-5c72-4825-925a-c8ba138bee76")
 	)
 	(wire
 		(pts
@@ -4860,6 +4876,17 @@
 			(justify left bottom)
 		)
 		(uuid "3d07290c-4572-4ea6-93dd-b1c5b997709d")
+	)
+	(label "ID"
+		(at 34.29 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4112bda0-df97-456e-8d08-7da9b25c7e09")
 	)
 	(label "LEFT_USB2_P"
 		(at 109.22 37.465 0)
@@ -5389,6 +5416,17 @@
 		)
 		(uuid "f6b03e56-89d9-4ceb-97a1-ca638b756bb2")
 	)
+	(label "ID"
+		(at 127 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7574b2f-7854-468c-9713-f418b0fab195")
+	)
 	(global_label "CM_USB3_RX_P"
 		(shape input)
 		(at 124.46 125.73 0)
@@ -5846,73 +5884,6 @@
 			(project "PiCard"
 				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 27.305 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "162b0198-a320-4c63-b117-9273dcd8dcf6")
-		(property "Reference" "#PWR069"
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 23.495 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.305 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.305 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.305 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44f74415-c98b-4235-b4a8-b48b6704e5c2")
-		)
-		(instances
-			(project "PiCard"
-				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7548,102 +7519,6 @@
 			(project "PiCard"
 				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.115 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85ccc693-0e27-40fc-840c-6ec7eca186e8")
-		(property "Reference" "R28"
-			(at 33.02 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12k"
-			(at 33.02 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 31.115 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25752"
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1202TCE"
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal"
-			(at 31.115 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4f2c415-587f-4aec-820a-2c03a9a12144")
-		)
-		(pin "1"
-			(uuid "ecb987f5-95a2-4c67-aef3-b07f87d3d9c9")
-		)
-		(instances
-			(project "PiCard"
-				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10189,7 +10064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PiCard:TPS2553")
+		(lib_id "PiCard:TPS2552")
 		(at 46.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10199,15 +10074,15 @@
 		(fields_autoplaced yes)
 		(uuid "e2fd6d70-0ae7-4519-82bc-91bd1af0ba40")
 		(property "Reference" "U10"
-			(at 46.99 30.48 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 46.99 40.64 0)
+		(property "Value" "TPS2552"
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2552.pdf"
 			(at 46.99 40.64 0)
 			(effects
 				(font
@@ -10241,7 +10116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C521201"
+		(property "LCSC" "C46506"
 			(at 46.99 40.64 0)
 			(effects
 				(font
@@ -10250,7 +10125,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS2553DDBVR"
+		(property "MPN" "TPS2552DBVR"
 			(at 46.99 40.64 0)
 			(effects
 				(font
@@ -10290,6 +10165,73 @@
 			(project "PiCard"
 				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e350c113-bd54-4981-8ed8-43f9c841ee5a")
+		(property "Reference" "#PWR044"
+			(at 138.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 145.415 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf8e6e4-0cef-48cb-ad18-38907fbeb5e5")
+		)
+		(instances
+			(project "PiCard"
+				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10957,6 +10899,102 @@
 			(project "PiCard"
 				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7616790-ef00-41c5-b194-b051e0592c70")
+		(property "Reference" "R11"
+			(at 140.335 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 140.335 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25764"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2003TCE"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a481cf2-f3ba-4f97-8955-2570b8c5fbc2")
+		)
+		(pin "1"
+			(uuid "e8ed03a5-3e19-454e-a726-b6e2095bb8dc")
+		)
+		(instances
+			(project "PiCard"
+				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/af945338-25b8-4ef2-bd39-92b37ae13491"
+					(reference "R11")
 					(unit 1)
 				)
 			)

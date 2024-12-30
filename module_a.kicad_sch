@@ -9096,7 +9096,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TPS2553"
 				(at 0 0 0)
 				(effects
 					(font
@@ -15129,7 +15129,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TPS2553"
 			(at 45.72 170.815 0)
 			(effects
 				(font

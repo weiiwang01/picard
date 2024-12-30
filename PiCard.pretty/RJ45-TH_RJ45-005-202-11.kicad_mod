@@ -357,4 +357,15 @@
 		(remove_unused_layers no)
 		(uuid "445c15b2-5835-473e-8a79-d5bc9b648941")
 	)
+	(model "${KIPRJMOD}/PiCard.3dshapes/non-free/RJ45-005-202-11.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

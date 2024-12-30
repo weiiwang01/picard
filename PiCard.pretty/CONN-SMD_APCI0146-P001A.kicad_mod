@@ -635,4 +635,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0faea420-b381-4cd8-bbd1-06dd2309e297")
 	)
+	(model "${KIPRJMOD}/PiCard.3dshapes/non-free/APCI0146-P001A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
