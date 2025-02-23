@@ -14176,7 +14176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74AHC123A"
+		(property "Value" "74AHCT123ABQ"
 			(at 268.605 83.82 0)
 			(effects
 				(font
@@ -14194,7 +14194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc123a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT123A.pdf"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -14212,7 +14212,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2869599"
+		(property "LCSC" "C554491"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -14221,7 +14221,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SN74AHC123APWR"
+		(property "MPN" "74AHCT123ABQ,115"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -14230,7 +14230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "Nexperia"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -14811,7 +14811,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AHC123A"
+		(property "Value" "74AHCT123ABQ"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -14828,7 +14828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc123a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT123A.pdf"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -14846,7 +14846,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2869599"
+		(property "LCSC" "C554491"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -14855,7 +14855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SN74AHC123APWR"
+		(property "MPN" "74AHCT123ABQ,115"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -14864,7 +14864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "Nexperia"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -16313,7 +16313,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AHC123A"
+		(property "Value" "74AHCT123ABQ"
 			(at 165.1 76.835 0)
 			(effects
 				(font
@@ -16330,7 +16330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc123a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT123A.pdf"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -16348,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2869599"
+		(property "LCSC" "C554491"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -16357,7 +16357,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SN74AHC123APWR"
+		(property "MPN" "74AHCT123ABQ,115"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -16366,7 +16366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "Nexperia"
 			(at 165.1 86.36 0)
 			(effects
 				(font
