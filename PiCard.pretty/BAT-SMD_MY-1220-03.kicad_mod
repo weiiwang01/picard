@@ -137,21 +137,37 @@
 	)
 	(fp_poly
 		(pts
-			(xy -6.5 -5) (xy 6.5 -5) (xy 6.5 4) (xy 3.5 7) (xy -3.5 7) (xy -6.5 4)
+			(arc
+				(start -6.5 1.3)
+				(mid -5.29616 0)
+				(end -6.5 -1.3)
+			)
+			(xy -6.5 -5.1) (xy 6.5 -5.1)
+			(arc
+				(start 6.5 -1.3)
+				(mid 5.29616 0)
+				(end 6.5 1.3)
+			)
+			(xy 6.5 4) (xy 3.6 6.9) (xy -3.6 6.9) (xy -6.5 4)
 		)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Mask")
-		(uuid "e9017af6-9200-4179-9fdb-e6e3e5d94a52")
+		(uuid "6e9f64ef-f4c4-49a2-bd27-917fe3efbe9d")
 	)
-	(pad "" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -6.6 0)
 		(size 2.5 2.5)
 		(drill 1.85)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(uuid "8fbcdca4-54d4-4666-86e5-79e457e3c69e")
 	)
@@ -159,7 +175,12 @@
 		(at 6.6 0)
 		(size 2.5 2.5)
 		(drill 1.85)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(uuid "baae7a7f-b267-475b-835d-359c0ca247e8")
 	)
