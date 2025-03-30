@@ -5496,6 +5496,161 @@
 			)
 		)
 	)
+	(symbol "TLV70433"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV70433"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at -0.254 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv704.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24-V, 150-mA, 3.2-μA Quiescent Current, Low-Dropout Linear Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLV70433_0_0"
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TLV70433_1_0"
+			(pin no_connect line
+				(at 21.59 -10.16 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 21.59 -7.62 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TLV70433_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 	(symbol "TPS2069C"
 		(pin_names
 			(offset 1.016)
@@ -6084,8 +6239,8 @@
 		)
 		(symbol "TPS259470_0_1"
 			(pin output line
-				(at -10.16 -17.78 90)
-				(length 5.08)
+				(at -10.16 -15.24 90)
+				(length 2.54)
 				(name "ITIMER"
 					(effects
 						(font
@@ -6102,8 +6257,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 10.16 0)
-				(length 5.08)
+				(at -15.24 10.16 0)
+				(length 2.54)
 				(name "IN"
 					(effects
 						(font
@@ -6120,8 +6275,8 @@
 				)
 			)
 			(pin output line
-				(at -3.81 -17.78 90)
-				(length 5.08)
+				(at -3.81 -15.24 90)
+				(length 2.54)
 				(name "dVdt"
 					(effects
 						(font
@@ -6138,8 +6293,8 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -17.78 90)
-				(length 5.08)
+				(at 3.81 -15.24 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -6156,8 +6311,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -17.78 90)
-				(length 5.08)
+				(at 10.16 -15.24 90)
+				(length 2.54)
 				(name "ILM"
 					(effects
 						(font
@@ -6187,8 +6342,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 3.81 0)
-				(length 5.08)
+				(at -15.24 3.81 0)
+				(length 2.54)
 				(name "EN/UVLO"
 					(effects
 						(font
@@ -6205,8 +6360,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
-				(length 5.08)
+				(at -15.24 -2.54 0)
+				(length 2.54)
 				(name "OVLO"
 					(effects
 						(font
@@ -6223,8 +6378,8 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -2.54 180)
-				(length 5.08)
+				(at 15.24 -2.54 180)
+				(length 2.54)
 				(name "AUXOFF"
 					(effects
 						(font
@@ -6241,8 +6396,8 @@
 				)
 			)
 			(pin output line
-				(at 17.78 3.81 180)
-				(length 5.08)
+				(at 15.24 3.81 180)
+				(length 2.54)
 				(name "~{FLT}"
 					(effects
 						(font
@@ -6259,8 +6414,8 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 10.16 180)
-				(length 5.08)
+				(at 15.24 10.16 180)
+				(length 2.54)
 				(name "OUT"
 					(effects
 						(font
@@ -6820,7 +6975,7 @@
 			)
 		)
 		(property "Footprint" "PiCard:RSE10"
-			(at 0 0 0)
+			(at -0.254 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6985,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3usb221.pdf"
-			(at 0 0 0)
+			(at -0.254 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,8 +7023,8 @@
 		)
 		(symbol "TS3USB221_0_1"
 			(pin passive line
-				(at -15.24 5.08 0)
-				(length 7.62)
+				(at -10.16 5.08 0)
+				(length 2.54)
 				(name "1D+"
 					(effects
 						(font
@@ -6886,8 +7041,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 5.08 180)
-				(length 7.62)
+				(at 10.16 5.08 180)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -6904,8 +7059,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 2.54 0)
-				(length 7.62)
+				(at -10.16 2.54 0)
+				(length 2.54)
 				(name "1D-"
 					(effects
 						(font
@@ -6922,8 +7077,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 0 0)
-				(length 7.62)
+				(at -10.16 0 0)
+				(length 2.54)
 				(name "2D+"
 					(effects
 						(font
@@ -6940,8 +7095,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -2.54 0)
-				(length 7.62)
+				(at -10.16 -2.54 0)
+				(length 2.54)
 				(name "2D-"
 					(effects
 						(font
@@ -6958,8 +7113,8 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -5.08 0)
-				(length 7.62)
+				(at -10.16 -5.08 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -6976,8 +7131,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -5.08 180)
-				(length 7.62)
+				(at 10.16 -5.08 180)
+				(length 2.54)
 				(name "~{OE}"
 					(effects
 						(font
@@ -6994,8 +7149,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -2.54 180)
-				(length 7.62)
+				(at 10.16 -2.54 180)
+				(length 2.54)
 				(name "D-"
 					(effects
 						(font
@@ -7012,8 +7167,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 0 180)
-				(length 7.62)
+				(at 10.16 0 180)
+				(length 2.54)
 				(name "D+"
 					(effects
 						(font
@@ -7030,8 +7185,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 2.54 180)
-				(length 7.62)
+				(at 10.16 2.54 180)
+				(length 2.54)
 				(name "S"
 					(effects
 						(font
@@ -7053,7 +7208,7 @@
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
