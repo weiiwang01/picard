@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -8.382 -4.572)
-		(end -8.382 4.572)
+		(start -8.6 -4.7)
+		(end -8.6 4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "40bf306a-8ff5-4af2-9b95-20c36ed976a7")
 	)
 	(fp_line
-		(start -8.382 4.572)
-		(end -7.596 4.572)
+		(start -8.593 4.7)
+		(end -7.7 4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "c005ea06-b81d-4316-8bd2-4fb91b2f2efd")
 	)
 	(fp_line
-		(start -7.596 -4.572)
-		(end -8.382 -4.572)
+		(start -7.7 -4.7)
+		(end -8.593 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "e6ec6872-bb52-4e3c-8dae-3ecf4cece2cf")
 	)
 	(fp_line
-		(start 7.596 4.572)
-		(end 8.382 4.572)
+		(start 7.7 4.7)
+		(end 8.593 4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "974ccc74-220f-433c-9dc0-997166bd376c")
 	)
 	(fp_line
-		(start 8.382 -4.572)
-		(end 7.596 -4.572)
+		(start 8.593 -4.7)
+		(end 7.7 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "a0db4da7-6c37-488c-9d63-e114c32a5dae")
 	)
 	(fp_line
-		(start 8.382 4.572)
-		(end 8.382 -4.572)
+		(start 8.6 4.7)
+		(end 8.6 -4.7)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,27 +125,28 @@
 		(layer "F.SilkS")
 		(uuid "5f92dacb-4220-4dc0-90e9-f8f1a825d4ad")
 	)
-	(fp_circle
-		(center -8.001 5.207)
-		(end -7.801 5.207)
+	(fp_poly
+		(pts
+			(xy -7.97 5.14) (xy -8.3 5.38) (xy -8.3 4.9) (xy -7.97 5.14)
+		)
 		(stroke
-			(width 0.4)
+			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "0cb67722-70c4-44d0-b491-3a82e6de4c73")
+		(uuid "a5d0fd46-3d56-40a2-a007-de718d29de47")
 	)
-	(fp_circle
-		(center -8.001 5.207)
-		(end -7.801 5.207)
+	(fp_rect
+		(start -8.8 -5.3)
+		(end 8.8 5.3)
 		(stroke
-			(width 0.4)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(fill none)
-		(layer "Cmts.User")
-		(uuid "80772609-0a9e-41c7-ab25-24a2eb5d0f2a")
+		(layer "F.CrtYd")
+		(uuid "089af9f7-e021-4508-96ba-f64812413629")
 	)
 	(pad "1" smd rect
 		(at -6.985 4.38 90)

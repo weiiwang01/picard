@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TPS62180YZFR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -2.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "305b37df-565f-4d2e-a15e-854ed2d004d3")
@@ -1716,6 +1716,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ba21039c-e8aa-4a8a-9e88-b2e91fdd0efe")
+	)
+	(fp_rect
+		(start -1.3 -1.8)
+		(end 1.3 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "90b7a1d7-1e5c-4590-b4f0-0e2e44d1585a")
 	)
 	(fp_line
 		(start -1.065002 -1.565001)

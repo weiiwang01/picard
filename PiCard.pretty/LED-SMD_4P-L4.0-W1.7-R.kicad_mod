@@ -133,6 +133,17 @@
 		(layer "Cmts.User")
 		(uuid "d359841a-0304-4bec-aeca-dce5da668440")
 	)
+	(fp_rect
+		(start -2.25 -1.1)
+		(end 2.25 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fb07236c-4319-4b71-955c-fc4ec97e9728")
+	)
 	(fp_circle
 		(center 2 -1.38)
 		(end 2.03 -1.38)

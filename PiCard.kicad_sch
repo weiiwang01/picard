@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "66ede366-7fc2-4b20-87f7-46baaffc82b7")
 	(paper "A4")
+	(title_block
+		(title "PiCard")
+		(rev "3.0")
+	)
 	(lib_symbols
 		(symbol "Graphic:Logo_Open_Hardware_Small"
 			(exclude_from_sim no)
@@ -305,7 +309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PiCard v2.2"
+		(property "Value" "PiCard v3.0"
 			(at 139.7 170.18 0)
 			(effects
 				(font

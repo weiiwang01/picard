@@ -225,88 +225,26 @@
 		(uuid "6e84c000-1b6a-4baf-906c-006e63dcb11c")
 	)
 	(pad "" np_thru_hole circle
-		(at -5.08 -1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "76251fcf-b732-4d08-bf03-a45e7f5b35cd")
-	)
-	(pad "" np_thru_hole circle
-		(at -5.08 1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "0ff53f22-e60d-44ef-bb00-e71d77c79c7f")
-	)
-	(pad "" np_thru_hole circle
 		(at -3.81 0)
 		(size 1.85 1.85)
 		(drill 1.85)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "df5261b6-33ba-4e01-8c6c-257929575cde")
-	)
-	(pad "" np_thru_hole circle
-		(at -2.54 -1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "f756ac3a-7c7a-4bff-bf5d-d9415dc999e4")
-	)
-	(pad "" np_thru_hole circle
-		(at -2.54 1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3112a97d-46aa-4d09-9c8f-fa581f436d7b")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 -1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "d304ed27-8fe1-47ed-9222-0dae0130b8d0")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "730b9742-727e-45e2-b6cf-ff5e8a03d81d")
-	)
-	(pad "" np_thru_hole circle
-		(at 2.54 -1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "c50e079c-fe1f-43bf-ba33-f86d52f9d405")
-	)
-	(pad "" np_thru_hole circle
-		(at 2.54 1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "1c464c69-d446-4a3d-80c6-ffc8a822f458")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.81 0)
 		(size 1.85 1.85)
 		(drill 1.85)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "d501902a-a568-4e6d-ad87-6d42e82f3739")
-	)
-	(pad "" np_thru_hole circle
-		(at 5.08 -1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "0843d4a5-5aa7-4ee4-8865-4deea2495ca9")
-	)
-	(pad "" np_thru_hole circle
-		(at 5.08 1.27)
-		(size 1.07 1.07)
-		(drill 1.07)
-		(layers "*.Cu" "*.Mask")
-		(uuid "936ba54d-cf0e-44c2-934c-af8b01c6cea7")
 	)
 	(pad "1" smd rect
 		(at 5.08 2.91)

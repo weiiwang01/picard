@@ -9,8 +9,8 @@
 		(uuid "532202ec-40ae-4531-aec3-468bc2e7320e")
 		(effects
 			(font
-				(size 1.000685 1.000685)
-				(thickness 0.015)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,16 +112,17 @@
 		(layer "F.SilkS")
 		(uuid "f323a0ec-2445-4045-bb4d-bc008fc52279")
 	)
-	(fp_circle
-		(center -2.38 -7.475)
-		(end -2.28 -7.475)
+	(fp_poly
+		(pts
+			(xy -3.3 -5.8) (xy -3.3 -5.4) (xy -3 -5.6)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "ff4b0123-717b-432b-b990-11f2d7804508")
+		(uuid "c2c01572-8897-45bb-ba4f-901c691b2b0a")
 	)
 	(fp_line
 		(start -4.67 -9.33)
