@@ -4616,6 +4616,179 @@
 				)
 			)
 		)
+		(symbol "PiCard:AP2171W"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2191W"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2191.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current limited power switch, single channel, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Limit USB Active High"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2171W_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2171W_1_1"
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{FLG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PiCard:ComputeModule5-CM5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8363,180 +8536,6 @@
 				)
 			)
 		)
-		(symbol "PiCard:TPS2069C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS2069C"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2069c.pdf"
-				(at -1.27 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single power-distribution switcher"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1-chanel power-distribution USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS2069C_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS2069C_1_1"
-				(pin power_out line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "~{FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Power_Protection:TPD4EUSB30"
 			(pin_names
 				(offset 0)
@@ -9724,12 +9723,6 @@
 		(uuid "80e4b732-362a-419f-bc69-281c1c74d241")
 	)
 	(junction
-		(at 31.75 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867b125b-121b-47b5-953c-c8505ea1c82a")
-	)
-	(junction
 		(at 31.115 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9806,6 +9799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d071c279-fee0-44ac-a084-f1c62abdb8ca")
+	)
+	(junction
+		(at 31.75 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0f232ec-e955-4db0-bdc1-3ddb1f51b975")
 	)
 	(junction
 		(at 33.02 127)
@@ -9892,7 +9891,7 @@
 		(uuid "3960b421-9c22-4dfe-bced-70569fce2497")
 	)
 	(no_connect
-		(at 31.75 165.1)
+		(at 52.07 175.26)
 		(uuid "4c19836a-f7d9-47cf-b0c3-f393e953d260")
 	)
 	(no_connect
@@ -9958,6 +9957,10 @@
 	(no_connect
 		(at 198.12 151.13)
 		(uuid "b242dd1b-8a01-4961-98b2-bb53508bada2")
+	)
+	(no_connect
+		(at 93.98 60.96)
+		(uuid "b43ff290-801e-430f-9b8c-78c4827c0d93")
 	)
 	(no_connect
 		(at 33.02 106.68)
@@ -10865,16 +10868,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75244daa-d51b-4a4a-b027-f65ad55a2027")
-	)
-	(wire
-		(pts
 			(xy 154.94 26.67) (xy 149.86 26.67)
 		)
 		(stroke
@@ -11352,6 +11345,16 @@
 			(type default)
 		)
 		(uuid "b05be17c-6a29-4042-bbcd-1f806bf7a004")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 33.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2799bb1-5b82-424c-b24e-99e3ae228126")
 	)
 	(wire
 		(pts
@@ -12324,7 +12327,7 @@
 		(uuid "75b5eef9-4c4d-43da-bd09-68e8833ca10e")
 	)
 	(label "SD_PWR"
-		(at 57.15 170.18 0)
+		(at 52.07 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12847,28 +12850,6 @@
 			)
 		)
 	)
-	(global_label "CM_UART4_TX"
-		(shape input)
-		(at 99.06 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a87e430-d763-46c5-8539-e5396b66fd09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7451 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CM_SPI1_SIO0"
 		(shape input)
 		(at 99.06 55.88 0)
@@ -13201,7 +13182,7 @@
 	)
 	(global_label "CM_PWR_EN"
 		(shape input)
-		(at 33.02 81.28 180)
+		(at 30.48 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13211,13 +13192,90 @@
 		)
 		(uuid "f5dbdbdd-a2ea-4244-9097-b8a57e69ca82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9073 81.28 0)
+			(at 16.3673 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PiCard:AP2171W")
+		(at 41.91 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0020c95d-2acf-41c9-862d-f161ec4fbef4")
+		(property "Reference" "U5"
+			(at 41.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2191W"
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 41.91 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2191.pdf"
+			(at 41.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current limited power switch, single channel, SOT-23-5"
+			(at 41.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5495f371-ca49-4d67-9c94-7786035349d9")
+		)
+		(pin "3"
+			(uuid "f46da8e2-0267-4403-bfbe-fcfe103dffcd")
+		)
+		(pin "1"
+			(uuid "e8ce23ff-2764-45fd-b6fc-0edff1937a0b")
+		)
+		(pin "2"
+			(uuid "3ba5445f-a1f5-4bfd-bb3c-095de65a7c0a")
+		)
+		(pin "5"
+			(uuid "978aaaf3-ca20-490d-b798-8e45badf5479")
+		)
+		(instances
+			(project ""
+				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/1857bea8-e8dd-4e36-adef-7e084bf0304c"
+					(reference "U5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -13482,7 +13540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 185.42 0)
+		(at 41.91 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13490,7 +13548,7 @@
 		(dnp no)
 		(uuid "0abf2be4-6fe4-4491-bd5f-97841adc1ea9")
 		(property "Reference" "#PWR028"
-			(at 44.45 191.77 0)
+			(at 41.91 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +13557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.577 189.8142 0)
+			(at 42.037 184.7342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +13565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 185.42 0)
+			(at 41.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13516,7 +13574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 185.42 0)
+			(at 41.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +13583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 185.42 0)
+			(at 41.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15759,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 165.1 0)
+		(at 31.75 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15709,7 +15767,7 @@
 		(dnp no)
 		(uuid "4b548f22-c4c8-4d7c-8fc0-65cde4e9e9c9")
 		(property "Reference" "#PWR025"
-			(at 57.15 168.91 0)
+			(at 35.56 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +15776,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 60.198 160.528 0)
+			(at 22.86 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,7 +15785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 165.1 0)
+			(at 31.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15736,7 +15794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 165.1 0)
+			(at 31.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +15803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 165.1 0)
+			(at 31.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,110 +19005,6 @@
 			(project "PiCard"
 				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/1857bea8-e8dd-4e36-adef-7e084bf0304c"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PiCard:TPS2069C")
-		(at 44.45 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd209992-230d-46a1-b6f7-47e3ef15f459")
-		(property "Reference" "U5"
-			(at 44.45 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS2069C"
-			(at 44.45 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 44.45 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2069c.pdf"
-			(at 43.18 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single power-distribution switcher"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C181752"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS2069CDBVR"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 44.45 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "aaeb820c-2534-44da-bfeb-28ffe05c606e")
-		)
-		(pin "1"
-			(uuid "bfc16949-cdc9-4162-b657-e8ed2a29d44f")
-		)
-		(pin "4"
-			(uuid "2ff27089-8bdc-4286-ba48-dbb9bc4161d8")
-		)
-		(pin "5"
-			(uuid "95eef68b-77a8-4a3c-acc2-d756d87ddc52")
-		)
-		(pin "2"
-			(uuid "42625f1b-355f-4020-b713-42477559134d")
-		)
-		(instances
-			(project ""
-				(path "/66ede366-7fc2-4b20-87f7-46baaffc82b7/1857bea8-e8dd-4e36-adef-7e084bf0304c"
-					(reference "U5")
 					(unit 1)
 				)
 			)

@@ -8,3 +8,18 @@
     (constraint edge_clearance (min 0.14mm))
     (condition "A.memberOfFootprint('PiCard:RJ45-TH_RJ45-005-202-11')")
 )
+(version 1)
+(rule "TestPoint and M.2 connector courtyard exclusion"
+  (constraint courtyard_clearance)
+  (condition "A.memberOfFootprint('PiCard:CONN-SMD_APCI0146-P001A') && B.memberOfFootprint('TestPoint:TestPoint_Pad_D1.5mm')")
+)
+(version 1)
+(rule "TestPoint and M.2 connector courtyard exclusion 2"
+  (constraint courtyard_clearance)
+  (condition "B.memberOfFootprint('PiCard:CONN-SMD_APCI0146-P001A') && A.memberOfFootprint('TestPoint:TestPoint_Pad_D1.5mm')")
+)
+(rule "TestPoint and M.2 connector courtyard exclusion"
+  (severity exclusion)
+  (constraint courtyard_clearance)
+  (condition "A.Reference == 'U5' && B.Reference == 'U6'")
+)

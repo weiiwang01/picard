@@ -9,7 +9,7 @@ connectors = []
 
 for row in positions:
     reference, x, y, rotation, layer = row
-    if not reference.startswith("ComputeModule"):
+    if not reference.lower().startswith("computemodule"):
         continue
     x = float(x)
     y = float(y)
